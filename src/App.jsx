@@ -10,8 +10,15 @@ export default class App extends Component{
     <Child ename="krish baghrecha" age={20} />
     <Child ename="zoro" age={30} />
     <Child ename="luffy" age={32} /> */}
-     {/* <Cards/> */}
-     <Snowfall color="white"/>
+     <Cards/>
+     <Snowfall color="white" snowflakeCount={500}
+        style={{
+          fontSize:"5vw",
+          position: "fixed",
+          width: "100vw",
+          height: "100%",
+          zIndex: -1,
+        }}/>
      <DefaultProps name="raju" age={23}/>
     </>
   }
